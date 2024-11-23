@@ -1,0 +1,64 @@
+body {
+    font-family: "Nato Serif", "Times New Roman", serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+#container {
+    width: 550px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background: #fff;
+    margin: auto;
+    padding: 2rem;
+    font-family: Inter, Calibri, sans-serif;
+}
+
+#firstMap { 
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    border: 1.25px solid #000;
+}
+
+#secondMap {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    border: 1.25px solid #000;
+}
+
+p {
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        text-align: center;
+        padding: 1rem;
+    }
+    #firstMap {
+        max-width: 100%;
+        height: 450px;
+        border: 0;
+    }
+    #secondMap {
+        max-width: 100%;
+        height: 450px;
+        border: 0;
+    }
+    p {
+        background: #fff;
+    }
+    #container {
+        max-width: 100%;
+    }
+}
